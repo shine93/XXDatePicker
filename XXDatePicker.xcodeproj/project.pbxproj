@@ -15,6 +15,10 @@
 		5B31CAA51F2C15D7001DF255 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B31CAA31F2C15D7001DF255 /* LaunchScreen.storyboard */; };
 		5B31CAB01F2C15D7001DF255 /* XXDatePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B31CAAF1F2C15D7001DF255 /* XXDatePickerTests.m */; };
 		5B31CABB1F2C15D7001DF255 /* XXDatePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B31CABA1F2C15D7001DF255 /* XXDatePickerUITests.m */; };
+		5B31CACC1F2C16ED001DF255 /* XXDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B31CACB1F2C16ED001DF255 /* XXDatePickerViewController.m */; };
+		5B31CAD31F2C188B001DF255 /* HooDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B31CACE1F2C188B001DF255 /* HooDatePicker.m */; };
+		5B31CAD41F2C188B001DF255 /* NSDate+HooDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B31CAD01F2C188B001DF255 /* NSDate+HooDatePicker.m */; };
+		5B31CAD51F2C188B001DF255 /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B31CAD21F2C188B001DF255 /* UIColor+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		5B31CAB61F2C15D7001DF255 /* XXDatePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XXDatePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B31CABA1F2C15D7001DF255 /* XXDatePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXDatePickerUITests.m; sourceTree = "<group>"; };
 		5B31CABC1F2C15D7001DF255 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B31CACA1F2C16ED001DF255 /* XXDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXDatePickerViewController.h; sourceTree = "<group>"; };
+		5B31CACB1F2C16ED001DF255 /* XXDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXDatePickerViewController.m; sourceTree = "<group>"; };
+		5B31CACD1F2C188B001DF255 /* HooDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooDatePicker.h; sourceTree = "<group>"; };
+		5B31CACE1F2C188B001DF255 /* HooDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooDatePicker.m; sourceTree = "<group>"; };
+		5B31CACF1F2C188B001DF255 /* NSDate+HooDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HooDatePicker.h"; sourceTree = "<group>"; };
+		5B31CAD01F2C188B001DF255 /* NSDate+HooDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HooDatePicker.m"; sourceTree = "<group>"; };
+		5B31CAD11F2C188B001DF255 /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		5B31CAD21F2C188B001DF255 /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				5B31CAA31F2C15D7001DF255 /* LaunchScreen.storyboard */,
 				5B31CAA61F2C15D7001DF255 /* Info.plist */,
 				5B31CA951F2C15D7001DF255 /* Supporting Files */,
+				5B31CACA1F2C16ED001DF255 /* XXDatePickerViewController.h */,
+				5B31CACB1F2C16ED001DF255 /* XXDatePickerViewController.m */,
+				5B31CACD1F2C188B001DF255 /* HooDatePicker.h */,
+				5B31CACE1F2C188B001DF255 /* HooDatePicker.m */,
+				5B31CACF1F2C188B001DF255 /* NSDate+HooDatePicker.h */,
+				5B31CAD01F2C188B001DF255 /* NSDate+HooDatePicker.m */,
+				5B31CAD11F2C188B001DF255 /* UIColor+Util.h */,
+				5B31CAD21F2C188B001DF255 /* UIColor+Util.m */,
 			);
 			path = XXDatePicker;
 			sourceTree = "<group>";
@@ -273,9 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B31CAD31F2C188B001DF255 /* HooDatePicker.m in Sources */,
 				5B31CA9D1F2C15D7001DF255 /* ViewController.m in Sources */,
 				5B31CA9A1F2C15D7001DF255 /* AppDelegate.m in Sources */,
+				5B31CAD51F2C188B001DF255 /* UIColor+Util.m in Sources */,
+				5B31CACC1F2C16ED001DF255 /* XXDatePickerViewController.m in Sources */,
 				5B31CA971F2C15D7001DF255 /* main.m in Sources */,
+				5B31CAD41F2C188B001DF255 /* NSDate+HooDatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
