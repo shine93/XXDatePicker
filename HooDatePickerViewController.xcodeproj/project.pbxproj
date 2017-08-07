@@ -15,6 +15,10 @@
 		5B5C6F2D1F2BC4160035DF5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C6F2B1F2BC4160035DF5B /* LaunchScreen.storyboard */; };
 		5B5C6F381F2BC4160035DF5B /* HooDatePickerViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C6F371F2BC4160035DF5B /* HooDatePickerViewControllerTests.m */; };
 		5B5C6F431F2BC4160035DF5B /* HooDatePickerViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C6F421F2BC4160035DF5B /* HooDatePickerViewControllerUITests.m */; };
+		5B5C6F521F2BC4730035DF5B /* HooDatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C6F511F2BC4730035DF5B /* HooDatePickerViewController.m */; };
+		5B5C6F591F2BC53F0035DF5B /* HooDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C6F541F2BC53F0035DF5B /* HooDatePicker.m */; };
+		5B5C6F5A1F2BC53F0035DF5B /* NSDate+HooDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C6F561F2BC53F0035DF5B /* NSDate+HooDatePicker.m */; };
+		5B5C6F5B1F2BC53F0035DF5B /* UIColor+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B5C6F581F2BC53F0035DF5B /* UIColor+Util.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		5B5C6F3E1F2BC4160035DF5B /* HooDatePickerViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HooDatePickerViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B5C6F421F2BC4160035DF5B /* HooDatePickerViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HooDatePickerViewControllerUITests.m; sourceTree = "<group>"; };
 		5B5C6F441F2BC4160035DF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B5C6F501F2BC4730035DF5B /* HooDatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooDatePickerViewController.h; sourceTree = "<group>"; };
+		5B5C6F511F2BC4730035DF5B /* HooDatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooDatePickerViewController.m; sourceTree = "<group>"; };
+		5B5C6F531F2BC53F0035DF5B /* HooDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HooDatePicker.h; sourceTree = "<group>"; };
+		5B5C6F541F2BC53F0035DF5B /* HooDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HooDatePicker.m; sourceTree = "<group>"; };
+		5B5C6F551F2BC53F0035DF5B /* NSDate+HooDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HooDatePicker.h"; sourceTree = "<group>"; };
+		5B5C6F561F2BC53F0035DF5B /* NSDate+HooDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HooDatePicker.m"; sourceTree = "<group>"; };
+		5B5C6F571F2BC53F0035DF5B /* UIColor+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Util.h"; sourceTree = "<group>"; };
+		5B5C6F581F2BC53F0035DF5B /* UIColor+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Util.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				5B5C6F2B1F2BC4160035DF5B /* LaunchScreen.storyboard */,
 				5B5C6F2E1F2BC4160035DF5B /* Info.plist */,
 				5B5C6F1D1F2BC4160035DF5B /* Supporting Files */,
+				5B5C6F501F2BC4730035DF5B /* HooDatePickerViewController.h */,
+				5B5C6F511F2BC4730035DF5B /* HooDatePickerViewController.m */,
+				5B5C6F531F2BC53F0035DF5B /* HooDatePicker.h */,
+				5B5C6F541F2BC53F0035DF5B /* HooDatePicker.m */,
+				5B5C6F551F2BC53F0035DF5B /* NSDate+HooDatePicker.h */,
+				5B5C6F561F2BC53F0035DF5B /* NSDate+HooDatePicker.m */,
+				5B5C6F571F2BC53F0035DF5B /* UIColor+Util.h */,
+				5B5C6F581F2BC53F0035DF5B /* UIColor+Util.m */,
 			);
 			path = HooDatePickerViewController;
 			sourceTree = "<group>";
@@ -273,9 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B5C6F591F2BC53F0035DF5B /* HooDatePicker.m in Sources */,
 				5B5C6F251F2BC4160035DF5B /* ViewController.m in Sources */,
+				5B5C6F521F2BC4730035DF5B /* HooDatePickerViewController.m in Sources */,
+				5B5C6F5B1F2BC53F0035DF5B /* UIColor+Util.m in Sources */,
 				5B5C6F221F2BC4160035DF5B /* AppDelegate.m in Sources */,
 				5B5C6F1F1F2BC4160035DF5B /* main.m in Sources */,
+				5B5C6F5A1F2BC53F0035DF5B /* NSDate+HooDatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
