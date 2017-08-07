@@ -2,12 +2,12 @@
 提供了一个能够进行月，日切换的时间选择控制器
 
 ## 使用要拖进去的文件
--XXDatePickerViewController.h
--XXDatePickerViewController.m
--HooDatePicker.h
--HooDatePicker.m
--NSDate+HooDatePicker.h
--NSDate+HooDatePicker.m
+- XXDatePickerViewController.h
+- XXDatePickerViewController.m
+- HooDatePicker.h
+- HooDatePicker.m
+- NSDate+HooDatePicker.h
+- NSDate+HooDatePicker.m
 
 ## 使用参看
 ViewController.h
