@@ -1,7 +1,7 @@
 # XXDatePicker使用说明
-提供了一个能够进行月，日切换的时间选择控制器
-效果如下
- ![XXDatePicker效果图](https://github.com/shine93/XXDatePicker/XXDatePickerImage.jpg)
+提供了一个能够进行月，日切换的时间选择控制器。
+- 效果如下
+ ![XXDatePicker效果图](https://github.com/shine93/XXDatePicker/blob/master/XXDatePickerImage.png)
 
 ## 使用要拖进去的文件
 - XXDatePickerViewController.h
