@@ -30,7 +30,7 @@
     HooDatePickerViewController *dateViewController = [[self storyboard] instantiateViewControllerWithIdentifier:NSStringFromClass([HooDatePickerViewController class])];
     dateViewController.delegate = self;
     
-    dateViewController.pickerMode = HooDatePickerModeYear;
+    dateViewController.pickerMode = HooDatePickerModeDate;
     
     dateViewController.modalPresentationStyle = UIModalPresentationOverCurrentContext;
     [self presentViewController:dateViewController animated:YES completion:nil];
